@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  android:padding="10dp"
+  tools:context=".MainActivity">
+
+  <EditText
+    android:id="@+id/etBasicPay"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:hint="basic pay" />
+
+  <EditText
+    android:id="@+id/etAllowence"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:hint="Allowances" />
+
+  <EditText
+    android:id="@+id/etDeductions"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:hint="deductions" />
+
+  <Button
+    android:id="@+id/salaryButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginBottom="10dp"
+    android:text="salary"
+    android:textColor="@color/white" />
+
+  <Button
+    android:id="@+id/mailButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginBottom="10dp"
+    android:text="mail"
+    android:textColor="@color/white" />
+
+  <TextView
+    android:id="@+id/tvSalary"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_marginBottom="10dp"
+    android:gravity="center"
+    android:hint="Total salary"
+    android:textColor="@color/black"
+    android:textSize="16sp" />
+
+
+
+</LinearLayout>
