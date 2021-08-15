@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+  <color name="sashini_dark">#ff6600</color>
+  <color name="sashini_light">#ff944d</color>
   <color name="shobith_dark">#33cc33</color>
   <color name="shobith_light">#70db70</color>
   <color name="purple_200">#FFBB86FC</color>

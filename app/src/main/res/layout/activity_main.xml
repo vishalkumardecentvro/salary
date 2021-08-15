@@ -12,21 +12,21 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_marginBottom="10dp"
-    android:hint="basic pay" />
+    android:hint="Basic salary" />
 
   <EditText
     android:id="@+id/etAllowence"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_marginBottom="10dp"
-    android:hint="Allowances" />
+    android:hint="All allowance" />
 
   <EditText
     android:id="@+id/etDeductions"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_marginBottom="10dp"
-    android:hint="deductions" />
+    android:hint="Deduction amount" />
 
   <Button
     android:id="@+id/salaryButton"
@@ -43,7 +43,7 @@
     android:layout_height="wrap_content"
     android:layout_gravity="center"
     android:layout_marginBottom="10dp"
-    android:text="mail"
+    android:text="mail salary"
     android:textColor="@color/white" />
 
   <TextView
@@ -55,7 +55,6 @@
     android:hint="Total salary"
     android:textColor="@color/black"
     android:textSize="16sp" />
-
 
 
 </LinearLayout>
